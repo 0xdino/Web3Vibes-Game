@@ -1,0 +1,32 @@
+.section {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: var(--bg-second);
+  color: #fff !important;
+  padding: 8px 10px;
+  z-index: 9999;
+
+  h3 {
+    font-size: 16px;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .section {
+    padding: 5px 10px;
+    flex-direction: column;
+    gap: 2px;
+
+    h3 {
+      text-align: center;
+    }
+  }
+}

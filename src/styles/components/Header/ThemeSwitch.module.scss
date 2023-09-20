@@ -1,0 +1,38 @@
+.section {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--main-100);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  div:hover {
+    background: var(--main-15);
+  }
+}
+
+.active {
+  background: rgba(0, 202, 202, 0.5) !important;
+}
+
+@media (max-width: 800px) {
+  .section {
+    column-gap: 5px;
+
+    div {
+      padding: 8px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

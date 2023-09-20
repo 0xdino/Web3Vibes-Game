@@ -1,0 +1,19 @@
+{
+  "404": {
+    "not-found": "Page not found",
+    "button": "Main page"
+  },
+  "header": {
+    "button": "Launch game"
+  },
+  "footer": {
+    "cookies": "We use cookies",
+    "dev": "Developed by"
+  },
+  "index": {
+    "description": "This project is an example of structuring the"
+  },
+  "game": {
+    "button": "Activate Game"
+  }
+}

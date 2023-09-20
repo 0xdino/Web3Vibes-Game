@@ -1,0 +1,36 @@
+.section {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 25px;
+  background-color: var(--bg-second);
+  width: 100vw;
+  z-index: 9999;
+
+  button {
+    color: #fff !important;
+  }
+}
+
+.elems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  column-gap: 25px;
+}
+
+@media (max-width: 800px) {
+  .section {
+    padding: 5px 10px;
+
+    button {
+      display: none;
+    }
+  }
+
+  .elems {
+    column-gap: 10px;
+  }
+}
