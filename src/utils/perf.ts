@@ -48,7 +48,7 @@ export const fetchOverCache = async (
   const start = Date.now();
 
   const cacheKey =
-    "defillama-cache:" + url.toString().replace(/^https?:\/\//, "");
+    "project-cache:" + url.toString().replace(/^https?:\/\//, "");
   const cache = REDIS_URL ? await getCache(cacheKey) : null;
 
   if (process.env.NODE_ENV === "development") {
