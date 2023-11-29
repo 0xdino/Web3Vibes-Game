@@ -1,9 +1,11 @@
 {
-  "name": "example",
+  "name": "web3vibes-game",
+  "description": "This app provides a visual structure for organizing Next.js web application.",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "author": "@0xDino",
+  "author": "https://github.com/0xdino",
+  "repository": "https://github.com/0xdino/Web3Vibes-Game.git",
   "homepage": "https://web3vibesgame.fun",
   "scripts": {
     "dev": "next dev",
